@@ -22,11 +22,12 @@ GET /personinfo?firstName=<firstName>&lastName=<lastName>
 GET /communityEmail?city=<city>
 ```
 Technologies utilisées : 
+```bash
 Java
 Spring Boot
 Maven
 Mysql 
-
+```
 
 Clonez le dépôt : 
 ```bash
