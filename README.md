@@ -71,6 +71,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 📧 Contact
 
-[votre-email@exemple.com](mailto:votre-email@exemple.com)
+[Oujjet)
 
 Projet: [https://github.com/votre-utilisateur/EmergencyServices](https://github.com/votre-utilisateur/EmergencyServices)
