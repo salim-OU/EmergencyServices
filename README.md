@@ -1,18 +1,29 @@
-Description
-Ce projet est une API Java qui gère les informations relatives aux casernes de pompiers et aux résidents desservis. Il permet d'accéder à diverses informations sur les habitants, y compris les détails des enfants, des alertes téléphoniques, et des antécédents médicaux.
+# Emergency Services API
 
-Fonctionnalités
-Liste des résidents par caserne : Récupère les habitants couverts par une caserne de pompiers spécifique.
-Alertes pour enfants : Retourne les informations des enfants vivant à une adresse donnée.
-Alertes téléphoniques : Récupère les numéros de téléphone des résidents desservis par une caserne.
-Informations sur les habitants : Retourne les informations complètes des habitants d'une adresse spécifique.
-Gestion des inondations : Liste tous les foyers desservis par une ou plusieurs casernes.
-Informations personnelles : Récupère les informations d'un habitant spécifique par son nom.
-Emails communautaires : Retourne les adresses email de tous les habitants d'une ville.
+API de gestion des services d'urgence pour les casernes de pompiers et les résidents.
 
-API Endpoints
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 
-```bash
+## 📋 Description
+
+API Java permettant la gestion des informations des casernes de pompiers et des résidents, incluant :
+- Données des résidents par caserne
+- Informations sur les enfants
+- Alertes téléphoniques
+- Antécédents médicaux
+- Gestion des urgences liées aux inondations
+
+## 🛠 Technologies
+- Java
+- Spring Boot
+- Maven
+- MySQL
+
+## 📡 API Endpoints
+
+```
 GET /firestation?stationNumber=<station_number>
 GET /childAlert?address=<address>
 GET /phoneAlert?firestation=<firestation_number>
@@ -21,31 +32,45 @@ GET /flood/stations?stations=<list_of_station_numbers>
 GET /personinfo?firstName=<firstName>&lastName=<lastName>
 GET /communityEmail?city=<city>
 ```
-Technologies utilisées : 
-```bash
-Java
-Spring Boot
-Maven
-Mysql 
-```
 
-Clonez le dépôt : 
+## 📥 Installation
+
+1. Cloner le projet
 ```bash
 git clone https://github.com/votre-utilisateur/EmergencyServices.git
 ```
-Accédez au répertoire du projet 
+
+2. Accéder au répertoire
 ```bash
 cd EmergencyServices
 ```
 
-Installez les dépendances 
+3. Installer les dépendances
 ```bash
-
 mvn install
 ```
 
-Exécution
+4. Lancer l'application
 ```bash
-
 mvn spring-boot:run
 ```
+
+## 🔍 Fonctionnalités
+
+- Liste des résidents par caserne
+- Alertes pour enfants par adresse
+- Alertes téléphoniques par caserne
+- Informations détaillées des résidents
+- Gestion des inondations par caserne
+- Recherche d'informations personnelles
+- Gestion des emails communautaires
+
+## 📝 License
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📧 Contact
+
+[votre-email@exemple.com](mailto:votre-email@exemple.com)
+
+Projet: [https://github.com/votre-utilisateur/EmergencyServices](https://github.com/votre-utilisateur/EmergencyServices)
