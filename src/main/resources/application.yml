@@ -1,0 +1,12 @@
+
+# Configuration de base de l'application
+spring:
+  application:
+    name: EmergencyServices
+
+  # Configuration de la base de données
+  datasource:
+    url: jdbc:mysql://localhost:3306/emergency_services?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: codeur
+    password: motdepasse123
+    driver-class-name: com.mysql.cj.jdbc.Driver
