@@ -31,11 +31,11 @@ Mysql
 
 Clonez le dépôt : 
 ```bash
-git clone https://github.com/votre-utilisateur/firestation-management.git
+git clone https://github.com/votre-utilisateur/EmergencyServices.git
 ```
 Accédez au répertoire du projet 
 ```bash
-cd firestation-management
+cd EmergencyServices
 ```
 
 Installez les dépendances 
